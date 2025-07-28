@@ -146,7 +146,6 @@ function reveal() {
         const revealButton = document.querySelector('button[onClick="reveal()"]');
         if (currentPlayer <= gamePlayerCount) {
             const nextPlayerName = playerNames.length > 0 ? playerNames[currentPlayer - 1] : `Player ${currentPlayer}`;
-            revealButton.textContent = `Pass to ${nextPlayerName}`;
         } else {
             revealButton.textContent = "All roles revealed!";
             revealButton.disabled = true;
