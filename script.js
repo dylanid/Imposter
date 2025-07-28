@@ -135,7 +135,7 @@ function reveal() {
         if (currentPlayer === gameImposter) {
             alert(`${currentPlayerName}, you are THE IMPOSTER!\n\nCategory: ${selectedCategory}\n\nYou don't know the specific item - try to blend in!\n\nClick OK when you're ready to pass the device.`);
         } else {
-            alert(`${currentPlayerName}, you are a CREWMATE!\n\nCategory: ${selectedCategory}\nItem: ${selectedItem}\n\nRemember this information!\n\nClick OK when you're ready to pass the device.`);
+            alert(`${currentPlayerName}, you are a PLAYER!\n\nCategory: ${selectedCategory}\nItem: ${selectedItem}\n\nRemember this information!\n\nClick OK when you're ready to pass the device.`);
         }
         
         currentPlayer++;
@@ -156,7 +156,7 @@ function reveal() {
                 <strong>🎉 All roles have been revealed!</strong><br><br>
                 <strong>Game Setup Complete</strong><br><br>
                 Now discuss with your group and try to identify the imposter!<br><br>
-                <em>Remember: Crewmates know the category AND item. The imposter only knows the category.</em>
+                <em>Remember: Players know the category AND item. The imposter only knows the category.</em>
             `;
         }
     } else if (!selectedCategory || !selectedItem) {
