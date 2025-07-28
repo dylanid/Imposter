@@ -67,7 +67,7 @@ function reveal() {
         if (currentPlayer === gameImposter) {
             alert("Player " + currentPlayer + ": You are THE IMPOSTER!\n\nCategory: " + selectedCategory + "\n\nYou don't know the specific item - try to blend in!");
         } else {
-            alert("Player " + currentPlayer + ": You are a CREWMATE!\n\nCategory: " + selectedCategory + "\nItem: " + selectedItem);
+            alert("Player " + currentPlayer + ": You are a PLAYER!\n\nCategory: " + selectedCategory + "\nItem: " + selectedItem);
         }
         
         currentPlayer++;
