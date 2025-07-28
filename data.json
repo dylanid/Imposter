@@ -1,13 +1,56 @@
 {
-    "Fruits": ["Apple", "Banana", "Mango", "Strawberry", "Grapes"],
-    "Countries": ["Brazil", "Japan", "Canada", "Egypt", "Germany"],
-    "Superheroes": ["Batman", "Spider-Man", "Wonder Woman", "Iron Man", "The Flash"],
-    "Animals": ["Elephant", "Giraffe", "Tiger", "Kangaroo", "Panda"],
-    "Board Games": ["Monopoly", "Scrabble", "Catan", "Risk", "Clue"],
-    "Cartoons": ["SpongeBob", "Adventure Time", "Avatar", "Rick and Morty", "Phineas and Ferb"],
-    "Desserts": ["Ice Cream", "Brownie", "Cheesecake", "Macaron", "Donut"],
-    "Video Games": ["Minecraft", "Fortnite", "Zelda", "Among Us", "Mario Kart"],
-    "Movies": ["Inception", "Titanic", "The Lion King", "Shrek", "Frozen"],
-    "Colors": ["Red", "Blue", "Green", "Yellow", "Purple"]
-  }
+  "Fruits": ["Apple", "Banana", "Mango", "Strawberry", "Grapes", "Orange", "Pineapple", "Watermelon", "Peach", "Pear", "Cherry", "Blueberry", "Raspberry", "Blackberry", "Kiwi", "Lemon", "Lime", "Coconut", "Avocado", "Pomegranate"],
+  
+  "Countries": ["Brazil", "Japan", "Canada", "Egypt", "Germany", "France", "Italy", "Spain", "Australia", "India", "China", "Mexico", "Argentina", "South Africa", "Netherlands", "Sweden", "Norway", "Denmark", "Finland", "Poland", "Russia", "Ukraine", "Turkey", "Greece", "Portugal"],
+  
+  "Superheroes": ["Batman", "Spider-Man", "Wonder Woman", "Iron Man", "The Flash", "Superman", "Captain America", "Thor", "Black Widow", "Hulk", "Aquaman", "Green Lantern", "Black Panther", "Doctor Strange", "Ant-Man", "Captain Marvel", "Scarlet Witch", "Vision", "Hawkeye", "Falcon"],
+  
+  "Animals": ["Elephant", "Giraffe", "Tiger", "Kangaroo", "Panda", "Lion", "Penguin", "Dolphin", "Eagle", "Shark", "Bear", "Wolf", "Fox", "Deer", "Rabbit", "Squirrel", "Raccoon", "Skunk", "Opossum", "Coyote", "Moose", "Elk", "Bison", "Antelope", "Gazelle"],
+  
+  "Board Games": ["Monopoly", "Scrabble", "Catan", "Risk", "Clue", "Chess", "Checkers", "Backgammon", "Pictionary", "Trivial Pursuit", "Battleship", "Connect Four", "Jenga", "Sorry", "Life", "Candy Land", "Chutes and Ladders", "Operation", "Twister", "Boggle"],
+  
+  "Cartoons": ["SpongeBob", "Adventure Time", "Avatar", "Rick and Morty", "Phineas and Ferb", "Gravity Falls", "Steven Universe", "Regular Show", "The Simpsons", "Family Guy", "South Park", "Futurama", "Bob's Burgers", "Archer", "BoJack Horseman", "Big Mouth", "Disenchantment", "Final Space", "Solar Opposites", "Close Enough"],
+  
+  "Desserts": ["Ice Cream", "Brownie", "Cheesecake", "Macaron", "Donut", "Cupcake", "Chocolate Cake", "Apple Pie", "Chocolate Chip Cookie", "Tiramisu", "Creme Brulee", "Pudding", "Gelato", "Sorbet", "Frozen Yogurt", "Milkshake", "Sundae", "Banana Split", "Chocolate Mousse", "Red Velvet Cake"],
+  
+  "Video Games": ["Minecraft", "Fortnite", "Zelda", "Among Us", "Mario Kart", "Super Mario", "Pokemon", "Call of Duty", "Grand Theft Auto", "Red Dead Redemption", "The Witcher", "Skyrim", "Fallout", "Mass Effect", "Dragon Age", "Assassin's Creed", "FIFA", "NBA 2K", "Madden", "Rocket League"],
+  
+  "Movies": ["Inception", "Titanic", "The Lion King", "Shrek", "Frozen", "Avatar", "The Avengers", "Black Panther", "Wonder Woman", "Joker", "Parasite", "La La Land", "Get Out", "The Shape of Water", "Moonlight", "Mad Max: Fury Road", "The Revenant", "Birdman", "12 Years a Slave", "Argo"],
+  
+  "Colors": ["Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Pink", "Black", "White", "Gray", "Brown", "Teal", "Navy", "Maroon", "Olive", "Lime", "Cyan", "Magenta", "Indigo", "Violet", "Turquoise", "Coral", "Gold", "Silver", "Bronze"],
+  
+  "Sports": ["Soccer", "Basketball", "Tennis", "Swimming", "Baseball", "Volleyball", "Golf", "Hockey", "Football", "Cricket", "Rugby", "Boxing", "MMA", "Wrestling", "Gymnastics", "Track and Field", "Cycling", "Skiing", "Snowboarding", "Surfing", "Skateboarding", "Rock Climbing", "Archery", "Fencing", "Table Tennis"],
+  
+  "Jobs": ["Teacher", "Doctor", "Engineer", "Artist", "Chef", "Police Officer", "Firefighter", "Nurse", "Lawyer", "Accountant", "Architect", "Designer", "Writer", "Journalist", "Photographer", "Musician", "Actor", "Director", "Scientist", "Researcher", "Pilot", "Sailor", "Soldier", "Farmer", "Veterinarian"],
+  
+  "Musical Instruments": ["Guitar", "Piano", "Violin", "Drums", "Bass", "Saxophone", "Trumpet", "Flute", "Clarinet", "Trombone", "Harp", "Cello", "Viola", "Ukulele", "Banjo", "Mandolin", "Harmonica", "Accordion", "Bagpipes", "Xylophone", "Marimba", "Tambourine", "Triangle", "Cymbals", "Bongos"],
+  
+  "Transportation": ["Car", "Bicycle", "Motorcycle", "Bus", "Train", "Airplane", "Boat", "Subway", "Tram", "Trolley", "Helicopter", "Jet", "Rocket", "Spaceship", "Hovercraft", "Cable Car", "Gondola", "Ferry", "Yacht", "Sailboat", "Kayak", "Canoe", "Raft", "Hot Air Balloon", "Zeppelin"],
+  
+  "Food": ["Pizza", "Hamburger", "Sushi", "Taco", "Pasta", "Chicken", "Salad", "Sandwich", "Burrito", "Hot Dog", "French Fries", "Onion Rings", "Nuggets", "Wings", "Ribs", "Steak", "Fish", "Shrimp", "Lobster", "Crab", "Oysters", "Mussels", "Clams", "Scallops", "Caviar"],
+  
+  "Drinks": ["Coffee", "Tea", "Water", "Milk", "Juice", "Soda", "Beer", "Wine", "Whiskey", "Vodka", "Rum", "Gin", "Tequila", "Brandy", "Cognac", "Champagne", "Prosecco", "Cider", "Lemonade", "Hot Chocolate", "Smoothie", "Milkshake", "Energy Drink", "Sports Drink", "Coconut Water"],
+  
+  "Holidays": ["Christmas", "Halloween", "Thanksgiving", "Easter", "Valentine's Day", "St. Patrick's Day", "Independence Day", "New Year's", "Birthday", "Anniversary", "Graduation", "Wedding", "Baby Shower", "Housewarming", "Retirement", "Promotion", "Vacation", "Weekend", "Friday", "Monday", "Hump Day", "TGIF", "Holiday", "Festival", "Celebration"],
+  
+  "Weather": ["Sunny", "Rainy", "Cloudy", "Snowy", "Stormy", "Windy", "Foggy", "Misty", "Hazy", "Clear", "Overcast", "Partly Cloudy", "Thunderstorm", "Lightning", "Rainbow", "Tornado", "Hurricane", "Blizzard", "Heat Wave", "Cold Snap", "Drought", "Flood", "Avalanche", "Tsunami", "Earthquake"],
+  
+  "Emotions": ["Happy", "Sad", "Angry", "Excited", "Nervous", "Confused", "Surprised", "Scared", "Proud", "Embarrassed", "Jealous", "Lonely", "Grateful", "Hopeful", "Anxious", "Calm", "Stressed", "Relaxed", "Energetic", "Tired", "Bored", "Curious", "Amused", "Frustrated", "Satisfied"],
+  
+  "Body Parts": ["Head", "Eyes", "Nose", "Mouth", "Ears", "Neck", "Shoulders", "Arms", "Hands", "Fingers", "Chest", "Back", "Stomach", "Legs", "Feet", "Toes", "Knees", "Elbows", "Wrists", "Ankles", "Hips", "Thumbs", "Palm", "Heel", "Forehead"],
+  
+  "Clothing": ["Shirt", "Pants", "Dress", "Skirt", "Shoes", "Socks", "Hat", "Jacket", "Coat", "Sweater", "Hoodie", "T-shirt", "Jeans", "Shorts", "Suit", "Tie", "Scarf", "Gloves", "Belt", "Watch", "Necklace", "Earrings", "Ring", "Bracelet", "Sunglasses"],
+  
+  "Furniture": ["Chair", "Table", "Bed", "Sofa", "Desk", "Bookshelf", "Dresser", "Nightstand", "Coffee Table", "Dining Table", "Office Chair", "Recliner", "Ottoman", "Bench", "Stool", "Bar Stool", "Futon", "Bean Bag", "Hammock", "Rocking Chair", "Armchair", "Loveseat", "Sectional", "Bunk Bed", "Futon"],
+  
+  "Technology": ["Computer", "Phone", "Tablet", "Laptop", "TV", "Camera", "Speaker", "Headphones", "Microphone", "Keyboard", "Mouse", "Monitor", "Printer", "Scanner", "Router", "Modem", "Hard Drive", "USB", "Charger", "Battery", "Remote Control", "Game Console", "Smart Watch", "Fitness Tracker", "Virtual Reality"],
+  
+  "Nature": ["Tree", "Flower", "Grass", "Mountain", "Ocean", "River", "Lake", "Forest", "Desert", "Jungle", "Beach", "Island", "Volcano", "Waterfall", "Cave", "Valley", "Hill", "Cliff", "Rock", "Stone", "Sand", "Dirt", "Mud", "Snow", "Ice"],
+  
+  "Buildings": ["House", "Apartment", "Office", "School", "Hospital", "Library", "Museum", "Church", "Temple", "Mosque", "Synagogue", "Castle", "Palace", "Tower", "Bridge", "Tunnel", "Stadium", "Arena", "Theater", "Cinema", "Restaurant", "Hotel", "Mall", "Bank", "Post Office"],
+  
+  "School Subjects": ["Math", "Science", "History", "English", "Geography", "Art", "Music", "Physical Education", "Computer Science", "Literature", "Philosophy", "Psychology", "Sociology", "Economics", "Political Science", "Biology", "Chemistry", "Physics", "Astronomy", "Geology", "Anthropology", "Archaeology", "Linguistics", "Statistics", "Calculus"],
+  
+  "Hobbies": ["Reading", "Writing", "Drawing", "Painting", "Photography", "Gardening", "Cooking", "Baking", "Knitting", "Sewing", "Woodworking", "Collecting", "Fishing", "Hunting", "Hiking", "Camping", "Traveling", "Dancing", "Singing", "Playing Music", "Gaming", "Puzzles", "Crosswords", "Sudoku", "Chess"]
+}
   
