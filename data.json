@@ -1,0 +1,13 @@
+{
+    "Fruits": ["Apple", "Banana", "Mango", "Strawberry", "Grapes"],
+    "Countries": ["Brazil", "Japan", "Canada", "Egypt", "Germany"],
+    "Superheroes": ["Batman", "Spider-Man", "Wonder Woman", "Iron Man", "The Flash"],
+    "Animals": ["Elephant", "Giraffe", "Tiger", "Kangaroo", "Panda"],
+    "Board Games": ["Monopoly", "Scrabble", "Catan", "Risk", "Clue"],
+    "Cartoons": ["SpongeBob", "Adventure Time", "Avatar", "Rick and Morty", "Phineas and Ferb"],
+    "Desserts": ["Ice Cream", "Brownie", "Cheesecake", "Macaron", "Donut"],
+    "Video Games": ["Minecraft", "Fortnite", "Zelda", "Among Us", "Mario Kart"],
+    "Movies": ["Inception", "Titanic", "The Lion King", "Shrek", "Frozen"],
+    "Colors": ["Red", "Blue", "Green", "Yellow", "Purple"]
+  }
+  
