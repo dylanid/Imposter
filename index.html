@@ -1,17 +1,133 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imposter Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<head> Imposter Game</head>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
 
-<div style="text-align: center;">
-    <br>
-    <h1>Enter player count (3-20): </h1>
-    
-    <form onsubmit="startGame(); return false;"> 
-        <input type="number" min=3 max="20" id="playerCount">
-        <input type="submit">
-    </form>
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
 
-    <br>
-</div>
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
 
-<script src="script.js"></script>
+        h2 {
+            color: #666;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            font-weight: normal;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            text-align: center;
+            margin-bottom: 20px;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="number"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        input[type="submit"] {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            transform: translateY(-2px);
+        }
+
+        input[type="submit"]:active {
+            transform: translateY(0);
+        }
+
+        /* Mobile optimizations */
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+                margin: 10px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1rem;
+            }
+
+            input[type="number"], input[type="submit"] {
+                font-size: 1rem;
+                padding: 12px;
+            }
+        }
+
+        /* Prevent zoom on input focus on iOS */
+        @media screen and (-webkit-min-device-pixel-ratio: 0) {
+            input[type="number"] {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎭 Imposter</h1>
+        <h2>Enter player count (3-20):</h2>
+        
+        <form onsubmit="startGame(); return false;">
+            <div class="form-group">
+                <input type="number" min="3" max="20" id="playerCount" placeholder="Enter number of players" required>
+            </div>
+            <input type="submit" value="Start Game">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
