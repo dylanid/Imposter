@@ -51,6 +51,12 @@
   
   "School Subjects": ["Math", "Science", "History", "English", "Geography", "Art", "Music", "Physical Education", "Computer Science", "Literature", "Philosophy", "Psychology", "Sociology", "Economics", "Political Science", "Biology", "Chemistry", "Physics", "Astronomy", "Geology", "Anthropology", "Archaeology", "Linguistics", "Statistics", "Calculus"],
   
-  "Hobbies": ["Reading", "Writing", "Drawing", "Painting", "Photography", "Gardening", "Cooking", "Baking", "Knitting", "Sewing", "Woodworking", "Collecting", "Fishing", "Hunting", "Hiking", "Camping", "Traveling", "Dancing", "Singing", "Playing Music", "Gaming", "Puzzles", "Crosswords", "Sudoku", "Chess"]
+  "Hobbies": ["Reading", "Writing", "Drawing", "Painting", "Photography", "Gardening", "Cooking", "Baking", "Knitting", "Sewing", "Woodworking", "Collecting", "Fishing", "Hunting", "Hiking", "Camping", "Traveling", "Dancing", "Singing", "Playing Music", "Gaming", "Puzzles", "Crosswords", "Sudoku", "Chess"],
+  
+  "Bodily Noises": ["Burp", "Fart", "Sneeze", "Cough", "Hiccup", "Snore", "Yawn", "Growl", "Whistle", "Sniff", "Snort", "Gurgle", "Rumble", "Pop", "Crack", "Squeak", "Squish", "Slurp", "Gulp", "Sigh", "Gasp", "Wheeze", "Choke", "Spit", "Vomit"],
+  
+  "Excuses for Being Late": ["Traffic", "Overslept", "Lost keys", "Car broke down", "Missed bus", "Bad weather", "Doctor appointment", "Family emergency", "Pet got sick", "Forgot wallet", "Phone died", "Got lost", "Long line", "Construction", "Accident", "Train delay", "Flat tire", "Alarm didn't go off", "Wrong address", "Meeting ran late", "Coffee spill", "Lost phone", "Bathroom emergency", "Helped someone", "Power outage"],
+  
+  "Harry Potter Characters": ["Harry Potter", "Hermione Granger", "Ron Weasley", "Albus Dumbledore", "Severus Snape", "Lord Voldemort", "Draco Malfoy", "Hagrid", "Sirius Black", "Remus Lupin", "Neville Longbottom", "Luna Lovegood", "Ginny Weasley", "Fred Weasley", "George Weasley", "Molly Weasley", "Arthur Weasley", "Minerva McGonagall", "Bellatrix Lestrange", "Lucius Malfoy", "Narcissa Malfoy", "Peter Pettigrew", "James Potter", "Lily Potter", "Cedric Diggory"]
 }
   

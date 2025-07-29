@@ -38,6 +38,21 @@
             font-weight: bold;
         }
 
+        .category-display {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .category-display h2 {
+            margin: 0;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
         p {
             color: #666;
             font-size: 1.1rem;
@@ -144,6 +159,11 @@
 <body>
     <div class="container">
         <h1>🎭 Imposter</h1>
+        
+        <div class="category-display" id="categoryDisplay" style="display: none;">
+            <h2>Category: <span id="categoryName">Loading...</span></h2>
+        </div>
+        
         <p id="playerInfo">Pass the device to Player 1 and click to reveal your role.</p>
         
         <div class="button-group">

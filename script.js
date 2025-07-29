@@ -78,6 +78,11 @@ window.onload = function() {
     // Update the initial message
     updatePlayerMessage();
     
+    // Show category display once data is loaded
+    loadGameData().then(() => {
+        showCategoryDisplay();
+    });
+    
     console.log("Game started with " + gamePlayerCount + " players");
     console.log("Imposter is player " + gameImposter); // Only visible in browser console
 }
@@ -121,9 +126,22 @@ async function loadGameData() {
         
         console.log("Category: " + selectedCategory);
         console.log("Item: " + selectedItem);
+        
+        return true; // Return a promise-like value
     } catch (error) {
         console.error("Error loading game data:", error);
         alert("Error loading game data. Please refresh the page.");
+        return false;
+    }
+}
+
+function showCategoryDisplay() {
+    if (selectedCategory) {
+        const categoryDisplay = document.getElementById('categoryDisplay');
+        const categoryName = document.getElementById('categoryName');
+        
+        categoryDisplay.style.display = 'block';
+        categoryName.textContent = selectedCategory;
     }
 }
 
