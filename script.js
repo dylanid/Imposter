@@ -78,10 +78,8 @@ window.onload = function() {
     // Update the initial message
     updatePlayerMessage();
     
-    // Show category display once data is loaded
-    loadGameData().then(() => {
-        showCategoryDisplay();
-    });
+    // Load the game data and show category display
+    loadGameData();
     
     console.log("Game started with " + gamePlayerCount + " players");
     console.log("Imposter is player " + gameImposter); // Only visible in browser console
@@ -126,6 +124,9 @@ async function loadGameData() {
         
         console.log("Category: " + selectedCategory);
         console.log("Item: " + selectedItem);
+        
+        // Show the category display after data is loaded
+        showCategoryDisplay();
         
         return true; // Return a promise-like value
     } catch (error) {
