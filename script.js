@@ -69,8 +69,10 @@ window.onload = function() {
         playerNames = JSON.parse(decodeURIComponent(namesParam));
     }
     
-    // Generate random imposter (1 to playerCount)
-    gameImposter = Math.floor(Math.random() * gamePlayerCount) + 1;
+    // Generate truly random imposter using crypto API
+    const randomBuffer = new Uint8Array(1);
+    crypto.getRandomValues(randomBuffer);
+    gameImposter = (randomBuffer[0] % gamePlayerCount) + 1;
     
     // Load the game data
     loadGameData();
