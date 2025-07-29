@@ -152,9 +152,9 @@ function reveal() {
         
         // Check if current player is the imposter
         if (currentPlayer === gameImposter) {
-            alert(`${currentPlayerName}, you are THE IMPOSTER!\n\nCategory: ${selectedCategory}\n\nYou don't know the specific item - try to blend in!\n\nClick OK when you're ready to pass the device.`);
+            alert(`${currentPlayerName}, you are THE IMPOSTER!\n\nCategory: ${selectedCategory}\n\nYou don't know the specific item - try to blend in!\n\nClick Close when you're ready to pass the device.`);
         } else {
-            alert(`${currentPlayerName}, you are a PLAYER!\n\nCategory: ${selectedCategory}\nItem: ${selectedItem}\n\nRemember this information!\n\nClick OK when you're ready to pass the device.`);
+            alert(`${currentPlayerName}, you are a PLAYER!\n\nCategory: ${selectedCategory}\nItem: ${selectedItem}\n\nRemember this information!\n\nClick Close when you're ready to pass the device.`);
         }
         
         currentPlayer++;
